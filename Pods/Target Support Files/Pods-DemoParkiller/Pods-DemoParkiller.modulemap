@@ -1,0 +1,6 @@
+framework module Pods_DemoParkiller {
+  umbrella header "Pods-DemoParkiller-umbrella.h"
+
+  export *
+  module * { export * }
+}

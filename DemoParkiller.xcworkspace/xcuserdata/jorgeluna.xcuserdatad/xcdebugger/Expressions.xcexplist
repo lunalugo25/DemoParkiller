@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GooglePlacesAutocompleteContainer.((getPlaces in _14D1F40863D3574C176157E9388B31B6)(String) -&gt; ()).(closure #1):GooglePlacesSearchController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GooglePlacesAutocompleteContainer.viewDidLoad() -&gt; ():GooglePlacesSearchController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tableView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Place.init(prediction : [String : AnyObject], apiKey : String?) -&gt; Place:GooglePlacesSearchController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "PRKMapView.viewDidLoad() -&gt; ():PRKMapView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapView">
+            </PersistentString>
+            <PersistentString
+               value = "mapView.delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PRKMapVC.mapView(GMSMapView, markerInfoWindow : GMSMarker) -&gt; UIView?:PRKMapVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSBundle.mainBundle().loadNibNamed(&quot;PRKMarkerWindow&quot;, owner: self, options: nil)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GooglePlacesAutocompleteContainer.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:GooglePlacesSearchController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "places.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

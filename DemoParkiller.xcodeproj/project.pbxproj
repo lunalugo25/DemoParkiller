@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B405E6DE1D9B5E07008508AC /* PRKMarkerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B405E6DD1D9B5E07008508AC /* PRKMarkerWindow.xib */; };
 		B481096F1D9736E000848AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B481096E1D9736E000848AFD /* AppDelegate.swift */; };
-		B48109711D9736E000848AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48109701D9736E000848AFD /* ViewController.swift */; };
 		B48109741D9736E000848AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48109721D9736E000848AFD /* Main.storyboard */; };
 		B48109761D9736E000848AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48109751D9736E000848AFD /* Assets.xcassets */; };
 		B48109791D9736E000848AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48109771D9736E000848AFD /* LaunchScreen.storyboard */; };
+		B48109811D9745B200848AFD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48109801D9745B200848AFD /* SystemConfiguration.framework */; };
+		B48109831D9745BA00848AFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48109821D9745BA00848AFD /* QuartzCore.framework */; };
+		B48109851D9745C400848AFD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48109841D9745C400848AFD /* OpenGLES.framework */; };
+		B48109871D9745F900848AFD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B48109861D9745F900848AFD /* libz.tbd */; };
+		B48109891D97460500848AFD /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B48109881D97460500848AFD /* libicucore.tbd */; };
+		B481098B1D97460E00848AFD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B481098A1D97460E00848AFD /* libc++.tbd */; };
+		B481098D1D97461900848AFD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B481098C1D97461900848AFD /* ImageIO.framework */; };
+		B481098F1D97462100848AFD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B481098E1D97462100848AFD /* GLKit.framework */; };
+		B48109911D97462B00848AFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48109901D97462B00848AFD /* CoreLocation.framework */; };
+		B48109931D97463300848AFD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48109921D97463300848AFD /* CoreData.framework */; };
+		B48109951D97463E00848AFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48109941D97463E00848AFD /* AVFoundation.framework */; };
+		B4F6834F1D98B708008382F0 /* PRKMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F6834E1D98B708008382F0 /* PRKMapVC.swift */; };
+		C2B186B79AE0D7EF0C3D871B /* Pods_DemoParkiller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F573D6A2F33E6435C2CE96 /* Pods_DemoParkiller.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62A7E4473A4C29497BD83DA5 /* Pods-DemoParkiller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoParkiller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoParkiller/Pods-DemoParkiller.debug.xcconfig"; sourceTree = "<group>"; };
+		66F5204BFEC94EF2F308E1DB /* Pods-DemoParkiller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoParkiller.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoParkiller/Pods-DemoParkiller.release.xcconfig"; sourceTree = "<group>"; };
+		B405E6DD1D9B5E07008508AC /* PRKMarkerWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PRKMarkerWindow.xib; path = Views/PRKMarkerWindow.xib; sourceTree = "<group>"; };
 		B481096B1D9736E000848AFD /* DemoParkiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoParkiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B481096E1D9736E000848AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B48109701D9736E000848AFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B48109731D9736E000848AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B48109751D9736E000848AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B48109781D9736E000848AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B481097A1D9736E000848AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48109801D9745B200848AFD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B48109821D9745BA00848AFD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B48109841D9745C400848AFD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B48109861D9745F900848AFD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B48109881D97460500848AFD /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		B481098A1D97460E00848AFD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B481098C1D97461900848AFD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B481098E1D97462100848AFD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B48109901D97462B00848AFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B48109921D97463300848AFD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B48109941D97463E00848AFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B4F6834E1D98B708008382F0 /* PRKMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PRKMapVC.swift; path = Controllers/PRKMapVC.swift; sourceTree = "<group>"; };
+		B6F573D6A2F33E6435C2CE96 /* Pods_DemoParkiller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoParkiller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48109951D97463E00848AFD /* AVFoundation.framework in Frameworks */,
+				B48109931D97463300848AFD /* CoreData.framework in Frameworks */,
+				B48109911D97462B00848AFD /* CoreLocation.framework in Frameworks */,
+				B481098F1D97462100848AFD /* GLKit.framework in Frameworks */,
+				B481098D1D97461900848AFD /* ImageIO.framework in Frameworks */,
+				B481098B1D97460E00848AFD /* libc++.tbd in Frameworks */,
+				B48109891D97460500848AFD /* libicucore.tbd in Frameworks */,
+				B48109871D9745F900848AFD /* libz.tbd in Frameworks */,
+				B48109851D9745C400848AFD /* OpenGLES.framework in Frameworks */,
+				B48109831D9745BA00848AFD /* QuartzCore.framework in Frameworks */,
+				B48109811D9745B200848AFD /* SystemConfiguration.framework in Frameworks */,
+				C2B186B79AE0D7EF0C3D871B /* Pods_DemoParkiller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D652A5CBED5480A9E6F2476 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B48109941D97463E00848AFD /* AVFoundation.framework */,
+				B48109921D97463300848AFD /* CoreData.framework */,
+				B48109901D97462B00848AFD /* CoreLocation.framework */,
+				B481098E1D97462100848AFD /* GLKit.framework */,
+				B481098C1D97461900848AFD /* ImageIO.framework */,
+				B481098A1D97460E00848AFD /* libc++.tbd */,
+				B48109881D97460500848AFD /* libicucore.tbd */,
+				B48109861D9745F900848AFD /* libz.tbd */,
+				B48109841D9745C400848AFD /* OpenGLES.framework */,
+				B48109821D9745BA00848AFD /* QuartzCore.framework */,
+				B48109801D9745B200848AFD /* SystemConfiguration.framework */,
+				B6F573D6A2F33E6435C2CE96 /* Pods_DemoParkiller.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64CEAF91C58F938C86E43E45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62A7E4473A4C29497BD83DA5 /* Pods-DemoParkiller.debug.xcconfig */,
+				66F5204BFEC94EF2F308E1DB /* Pods-DemoParkiller.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B405E6DA1D9B5D84008508AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B405E6DD1D9B5E07008508AC /* PRKMarkerWindow.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		B48109621D9736DE00848AFD = {
 			isa = PBXGroup;
 			children = (
 				B481096D1D9736E000848AFD /* DemoParkiller */,
 				B481096C1D9736E000848AFD /* Products */,
+				64CEAF91C58F938C86E43E45 /* Pods */,
+				2D652A5CBED5480A9E6F2476 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +132,31 @@
 		B481096D1D9736E000848AFD /* DemoParkiller */ = {
 			isa = PBXGroup;
 			children = (
+				B405E6DA1D9B5D84008508AC /* Views */,
+				B48109981D97670400848AFD /* Controllers */,
+				B4F6834B1D9865FC008382F0 /* Models */,
 				B481096E1D9736E000848AFD /* AppDelegate.swift */,
-				B48109701D9736E000848AFD /* ViewController.swift */,
 				B48109721D9736E000848AFD /* Main.storyboard */,
 				B48109751D9736E000848AFD /* Assets.xcassets */,
 				B48109771D9736E000848AFD /* LaunchScreen.storyboard */,
 				B481097A1D9736E000848AFD /* Info.plist */,
 			);
 			path = DemoParkiller;
+			sourceTree = "<group>";
+		};
+		B48109981D97670400848AFD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4F6834E1D98B708008382F0 /* PRKMapVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B4F6834B1D9865FC008382F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B481097D1D9736E000848AFD /* Build configuration list for PBXNativeTarget "DemoParkiller" */;
 			buildPhases = (
+				5094824DA2242DFC888C7640 /* [CP] Check Pods Manifest.lock */,
 				B48109671D9736DE00848AFD /* Sources */,
 				B48109681D9736DE00848AFD /* Frameworks */,
 				B48109691D9736DE00848AFD /* Resources */,
+				284D95BB176B2C5A52CA02ED /* [CP] Embed Pods Frameworks */,
+				F3E3E2F698B4A1803A4D0024 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +194,7 @@
 				TargetAttributes = {
 					B481096A1D9736DE00848AFD = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,17 +225,66 @@
 				B48109791D9736E000848AFD /* LaunchScreen.storyboard in Resources */,
 				B48109761D9736E000848AFD /* Assets.xcassets in Resources */,
 				B48109741D9736E000848AFD /* Main.storyboard in Resources */,
+				B405E6DE1D9B5E07008508AC /* PRKMarkerWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		284D95BB176B2C5A52CA02ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoParkiller/Pods-DemoParkiller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5094824DA2242DFC888C7640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E3E2F698B4A1803A4D0024 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoParkiller/Pods-DemoParkiller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B48109671D9736DE00848AFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B48109711D9736E000848AFD /* ViewController.swift in Sources */,
+				B4F6834F1D98B708008382F0 /* PRKMapVC.swift in Sources */,
 				B481096F1D9736E000848AFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,25 +406,27 @@
 		};
 		B481097E1D9736E000848AFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A7E4473A4C29497BD83DA5 /* Pods-DemoParkiller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoParkiller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = parkiller.DemoParkiller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		B481097F1D9736E000848AFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F5204BFEC94EF2F308E1DB /* Pods-DemoParkiller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoParkiller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = parkiller.DemoParkiller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -299,6 +449,7 @@
 				B481097F1D9736E000848AFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

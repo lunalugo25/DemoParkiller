@@ -1,0 +1,19 @@
+PODS:
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - GooglePlacesSearchController (0.1.6)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlacesSearchController
+
+SPEC CHECKSUMS:
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+  GooglePlacesSearchController: a74fa0545896fee45426b8a9c62939785e6b0634
+
+PODFILE CHECKSUM: 6a0a68708d2abb03be3f44f9b29ab51c1c798abe
+
+COCOAPODS: 1.1.0.rc.2
